@@ -3,3 +3,17 @@ header{
     min-height: 70px;
     background-color: #2C3E50;
 }
+
+/* !spotlight */
+
+.spotlight{
+    min-height: 500px;
+    background-color: #1ABC9C;
+}
+
+/* ! sezione principale */
+
+.col{
+    min-height: 300px;
+    border: 1px dashed red;
+}
