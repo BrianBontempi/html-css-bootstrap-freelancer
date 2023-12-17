@@ -7,8 +7,11 @@ header{
 /* !spotlight */
 
 .spotlight{
-    min-height: 500px;
     background-color: #1ABC9C;
+}
+
+#avatar{
+    width: 50%;
 }
 
 /* ! sezione principale */
@@ -35,3 +38,4 @@ header{
 footer{
     background-color: #3A546D;
 }
+
