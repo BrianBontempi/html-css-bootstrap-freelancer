@@ -108,19 +108,54 @@ header ul a:hover{
     opacity: 1;
 }
 
-/* ! abaout section */
+/* ! about section */
 
 #about{
     background-color: var(--fr-teal);
-    min-height: 200px;
 }
+
 /* ! form section */
 
-#form{
-    min-height: 100px;
+#contact h2{
+    color: var(--fr-dark);
 }
+
+#contact textarea{
+    height: 160px;
+}
+
+.btn-teal{
+    background-color: var(--fr-teal);
+    color: white;
+}
+
+.btn-teal:hover{
+    background-color: #16a085;
+    color: white;
+}
+
 /* ! footer */
 
 footer{
     background-color: var(--fr-footer);
+}
+
+footer a{
+    color: white;
+}
+
+.btn-social{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 2px;
+    margin: 0 4px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    background-color: var(--fr-copy);
 }
