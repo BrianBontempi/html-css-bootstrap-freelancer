@@ -20,7 +20,7 @@ header{
 }
 
 header .navbar{
-    height: 80px;
+    min-height: 80px;
 }
 
 header a{

@@ -18,8 +18,8 @@
 <body>
     <!-- ! header -->
     <header class="sticky-top">
-        <nav class="navbar h-100">
-            <div class="container h-100 align-items-center">
+        <nav class="navbar">
+            <div class="container align-items-center">
                 <a class="navbar-brand text-light fw-bold" href="#">START BOOTSTRAP</a>
                 <button class="btn btn-outline-light d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Menu"><i class="fas fa-bars"></i></button>
                 <ul class="d-none d-md-flex m-0 gap-4">
@@ -27,18 +27,16 @@
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
+                <!-- ! menu mobile -->
+                <div class="collapse w-100 d-md-none" id="mobile-menu">
+                    <ul class="m-0 p-0 pt-3">
+                        <li class="py-2"><a href="#portfolio">PORTFOLIO</a></li>
+                        <li class="py-2"><a href="#about">ABOUT</a></li>
+                        <li class="py-2"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <!-- ! menu mobile -->
-        <div class="collapse d-md-none" id="mobile-menu">
-            <div class="container">
-                <ul class="m-0 p-0 pb-3">
-                    <li class="py-2"><a href="#portfolio">PORTFOLIO</a></li>
-                    <li class="py-2"><a href="#about">ABOUT</a></li>
-                    <li class="py-2"><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
     </header>
    <!-- ! spotlight -->
     <div class="spotlight text-light text-center">
